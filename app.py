@@ -34,7 +34,7 @@ JOBS = [
 def hello():
   return render_template("home.html",
                          jobs=JOBS,
-                        company_name="Freshers")
+                        company_name="CareerPoint")
 
 
 @app.route("/api/jobs")
